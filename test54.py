@@ -1,0 +1,19 @@
+#Lists and arrays
+fruits=["apple","mango","banana","grapes"]
+print(fruits[0])
+print(fruits[-1])
+print(len(fruits))
+print(fruits[1:3])
+#
+fruits=["apple","mango","banana"]
+print(fruits)
+fruits.append("grapes")
+print(fruits)
+fruits.insert(1,"kiwi")
+print(fruits)
+fruits.remove("mango")
+print(fruits)
+fruits.sort()
+print(fruits)
+fruits.pop(1)
+print(fruits)
